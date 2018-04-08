@@ -7,7 +7,7 @@ function compact(array){
     }
 
     return array.filter(function (value){
-        if(value) return value;
+        return !!value;
     });
 
 }
