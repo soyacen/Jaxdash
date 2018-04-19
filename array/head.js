@@ -1,4 +1,4 @@
-//获取array中的最后一个元素。
+//获取数组 array 的第一个元素。
 
 function head(array){
     if(!array || !Array.isArray(array)||array.length<=0){
